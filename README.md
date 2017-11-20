@@ -16,7 +16,7 @@ __Note__: The most recent package archive can be found on [Google's Cloud SDK](h
 
 # Instructions
 
-1) Download package archive.
+1) Download package archive. (see downloads)
 
 2) Verify Checksum. `sha256sum <package_archive>`
 
