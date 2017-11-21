@@ -22,9 +22,9 @@ __Note__: The most recent package archive can be found on [Google's Cloud SDK](h
 
 3) Extract. `tar -xvf <package_archive>`
 
-4) Change directories. -> Run the install script. -> Run initilization. -> Update gcloud
+4) Change directories. -> Run the install script. -> Run initilization. -> Change Directories. -> Update gcloud
 
-`cd google-cloud-sdk && ./install.sh && ./bin/gcloud init && gcloud components update`
+`cd google-cloud-sdk && ./install.sh && ./bin/gcloud init && cd && gcloud components update`
 
 5) Export *$PATH*. `export PATH=$PATH:$(pwd)/bin`
 
